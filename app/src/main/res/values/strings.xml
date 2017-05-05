@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">NewLoginApp</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="select_state">Select State</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+
+    <string-array name="country_State">
+        <item>Select state</item>
+        <item>Tamil Nadu</item>
+        <item>Kerela</item>
+        <item>Karnataka</item>
+    </string-array>
+
+    <string-array name="city_Tamil_Nadu">
+        <item>Select City</item>
+        <item>Coimbatore</item>
+        <item>Chennai</item>
+        <item>Madurai</item>
+        <item>Trichy</item>
+    </string-array>
+
+    <string-array name="city_Kerela">
+        <item>Select City</item>
+        <item>cochin</item>
+        <item>cochin1</item>
+        <item>cochin2</item>
+        <item>cochin3</item>
+    </string-array>
+
+    <string-array name="city_Karnataka">
+        <item>Select City</item>
+        <item>Bangalore1</item>
+        <item>Bangalore2</item>
+        <item>Bangalore3</item>
+        <item>Bangalore4</item>
+    </string-array>
+
+
+    <!-- Names -->
+    <string-array name="names_array">
+        <item>Restaurant 1</item>
+        <item>Restaurant 2</item>
+        <item>Restaurant 3</item>
+        <item>Restaurant 4</item>
+        <item>Restaurant 5</item>
+        <item>Restaurant 6</item>
+        <item>Restaurant 7</item>
+    </string-array>
+
+    <!-- Pictures -->
+    <array name="pics_array">
+        <item>@drawable/img1</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img6</item>
+        <item>@drawable/img7</item>
+    </array>
+
+    <!-- Status -->
+    <string-array name="sta_array">
+        <item>Mexican, italian</item>
+        <item>chinese , multi-chinese</item>
+        <item>chinese,south indian</item>
+        <item>italian</item>
+        <item>Burgers,fast food</item>
+        <item>Continental italian</item>
+        <item>Biryani,chinese</item>
+    </string-array>
+
+    <!-- contact type -->
+    <string-array name="contact_array">
+        <item>12:30am</item>
+        <item>11:30am</item>
+        <item>1:00pm</item>
+        <item>12:51pm</item>
+        <item>08:12am</item>
+        <item>06:09am</item>
+        <item>13:56pm</item>
+    </string-array>
+
+    <string-array name="ItemFood1">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+        <item>item5</item>
+        <item>item6</item>
+        <item>item7</item>
+    </string-array>
+
+    <string-array name="weightgroup">
+        <item>h kg</item>
+        <item>1 kg</item>
+        <item>1h kg</item>
+        <item>2 kg</item>
+        <item>2h kg</item>
+        <item>3 kg</item>
+        <item>3h kg</item>
+    </string-array>
+
+    <!--<string-array name="ItemFood2">-->
+        <!--<item>item1</item>-->
+        <!--<item>item2</item>-->
+        <!--<item>item3</item>-->
+        <!--<item>item4</item>-->
+        <!--<item>item5</item>-->
+        <!--<item>item6</item>-->
+        <!--<item>item7</item>-->
+    <!--</string-array>-->
+    <!--<string-array name="ItemFood3">-->
+        <!--<item>item1</item>-->
+        <!--<item>item2</item>-->
+        <!--<item>item3</item>-->
+        <!--<item>item4</item>-->
+        <!--<item>item5</item>-->
+        <!--<item>item6</item>-->
+        <!--<item>item7</item>-->
+    <!--</string-array>-->
+    <!--<string-array name="ItemFood4">-->
+        <!--<item>item1</item>-->
+        <!--<item>item2</item>-->
+        <!--<item>item3</item>-->
+        <!--<item>item4</item>-->
+        <!--<item>item5</item>-->
+        <!--<item>item6</item>-->
+        <!--<item>item7</item>-->
+    <!--</string-array>-->
+    <!--<string-array name="ItemFood5">-->
+        <!--<item>item1</item>-->
+        <!--<item>item2</item>-->
+        <!--<item>item3</item>-->
+        <!--<item>item4</item>-->
+        <!--<item>item5</item>-->
+        <!--<item>item6</item>-->
+        <!--<item>item7</item>-->
+    <!--</string-array>-->
+
+
+
+
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="place image here"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Offer: your offers are displayed here"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/hotelitemtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="5sp"
+        android:text="textview"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="choose weight: "
+            android:textSize="20dp"
+            android:textColor="#000"/>
+        <Spinner
+            android:id="@+id/editTextwhichbloodneededurgent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:entries="@array/weightgroup"
+            android:inputType="textPostalAddress" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:textColor="#000"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/textView3" />
+
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+            android:background="@drawable/relative_layout_border">
+
+        <Button
+            android:id="@+id/decrease"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:onClick="decreaseInteger"
+            android:text="-"
+            android:background="@drawable/round_fab_button"/>
+
+        <TextView
+            android:id="@+id/integer_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="1"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/increase"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:onClick="increaseInteger"
+            android:text="+"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/round_fab_button"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:layout_alignParentLeft="true"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/one100"
+            android:text="Rs: "
+            android:textStyle="bold"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/one100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+    </RelativeLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Procced"
+        android:theme="@style/AppTheme.Button"
+        />
+
+</LinearLayout>
